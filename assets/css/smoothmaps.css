@@ -1,0 +1,45 @@
+/* Style the smoothMapstab */
+.smoothMapstab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the smoothMapstab content */
+.smoothMapstab a {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.smoothMapstab a:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current smoothMapstablink class */
+.smoothMapstab a.active {
+  background-color: #ccc;
+}
+
+/* Style the smoothMapstab content */
+.smoothMapstabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.post-type-smoothmaps .postbox-container input{
+	width:100%;
+}
+.post-type-smoothmaps .postbox-container select{
+	width:100%;
+}
+.post-type-smoothmaps .postbox-container table{
+	width:100%;
+}
